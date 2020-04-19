@@ -1,0 +1,2939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters> <!--Talvera-->
+	<!--TO DO
+	Create Cathalon Paladins 
+	Create Wyndrake Rebellion
+	Create Orizyum Dwarves
+	Create Dusken Elves
+	Create Bollindur Orcs-->
+	<!--TALVERA-->
+ <!--Talveran Infantry-->
+  <NPCCharacter id="talveran_paige"
+                default_group="Infantry"
+                level="6"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Paige"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="15" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="0" />
+      <skill id="Polearm"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.worn_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.worn_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.worn_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_squire" />
+      <upgrade_target id="NPCCharacter.talveran_archer" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="talveran_squire"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Squire"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_b" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.open_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.steppe_leather_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_b" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.open_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.steppe_leather_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_b" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.open_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.steppe_leather_shoulders" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_knight" />
+	  <upgrade_target id="NPCCharacter.talveran_pikeman" />
+    </upgrade_targets>
+
+   </NPCCharacter>
+   
+   
+  <NPCCharacter id="talveran_knight"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Knight"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="25" />
+      <skill id="Crossbow"
+             value="35" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.sturgia_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.reinforced_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_f" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.sturgia_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.reinforced_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_f" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.sturgia_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.reinforced_kite_shield" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_f" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_sergeant" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+   <NPCCharacter id="talveran_pikeman"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Pikeman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="25" />
+      <skill id="Crossbow"
+             value="35" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <equipment slot="Item1"
+                 id="Item.eastern_throwing_spear_1_t3" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_f" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <equipment slot="Item1"
+                 id="Item.eastern_throwing_spear_1_t3" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_f" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <equipment slot="Item1"
+                 id="Item.eastern_throwing_spear_1_t3" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_f" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_anti_cav" />
+      <upgrade_target id="NPCCharacter.talveran_charger" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+   <NPCCharacter id="talveran_sergeant"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Sergeant"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="90" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="120" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_3_t4" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_3_t4" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_3_t4" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_royal_guard" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+   <NPCCharacter id="talveran_anti_cav"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Anti Calvary"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="90" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="120" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.eastern_throwing_spear_2_t4" />
+      <equipment slot="Body"
+                 id="Item.western_scale_mail" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.roundkettle_over_imperial_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.eastern_studded_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.eastern_throwing_spear_2_t4" />
+      <equipment slot="Body"
+                 id="Item.western_scale_mail" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.roundkettle_over_imperial_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.eastern_studded_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.eastern_throwing_spear_2_t4" />
+      <equipment slot="Body"
+                 id="Item.western_scale_mail" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.roundkettle_over_imperial_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.eastern_studded_shoulders" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_banner_knight" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+    <NPCCharacter id="talveran_royal_guard"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Royal Guard"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="140" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_noble_sword_1_t5" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.full_helm_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.imperial_lamellar_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_noble_sword_1_t5" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.full_helm_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.imperial_lamellar_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_noble_sword_1_t5" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.full_helm_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.imperial_lamellar_shoulders" />
+    </equipmentSet>
+	
+    <upgrade_targets>
+	</upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+     <NPCCharacter id="talveran_banner_knight"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Banner Knight"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="140" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="120" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_5_t5" />
+      <equipment slot="Item1"
+                 id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.empire_helmet_with_metal_strips" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.lamellar_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_5_t5" />
+      <equipment slot="Item1"
+                 id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.empire_helmet_with_metal_strips" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.lamellar_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_5_t5" />
+      <equipment slot="Item1"
+                 id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.empire_helmet_with_metal_strips" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.lamellar_shoulders" />
+    </equipmentSet>
+	
+    <upgrade_targets>
+	</upgrade_targets>
+	
+  </NPCCharacter>
+   <!--Talveran Archers-->
+  <NPCCharacter id="talveran_archer"
+                default_group="Ranged"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Archer"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bastard_sword_t2" />					 
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bastard_sword_t2" />					 
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bastard_sword_t2" />					 
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_marksman" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+    <NPCCharacter id="talveran_marksman"
+                default_group="Ranged"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Marksman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bastard_sword_t2" />					 
+      <equipment slot="Body"
+                 id="Item.layered_robe" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.desert_fabric_shoulderpad" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bastard_sword_t2" />					 
+      <equipment slot="Body"
+                 id="Item.layered_robe" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.desert_fabric_shoulderpad" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bastard_sword_t2" />					 
+      <equipment slot="Body"
+                 id="Item.layered_robe" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.desert_fabric_shoulderpad" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_sharpshooter" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+      <NPCCharacter id="talveran_sharpshooter"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Sharpshooter"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="120" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.nordic_shortbow" />
+      <equipment slot="Item1"
+                 id="Item.steppe_arrows" />
+      <equipment slot="Item3"
+                 id="Item.battania_2hsword_2_t3" />					 
+      <equipment slot="Body"
+                 id="Item.stitched_leather_vest" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.closed_desert_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.nordic_shortbow" />
+      <equipment slot="Item1"
+                 id="Item.steppe_arrows" />
+      <equipment slot="Item3"
+                 id="Item.battania_2hsword_2_t3" />					 
+      <equipment slot="Body"
+                 id="Item.stitched_leather_vest" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.closed_desert_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.nordic_shortbow" />
+      <equipment slot="Item1"
+                 id="Item.steppe_arrows" />
+      <equipment slot="Item3"
+                 id="Item.battania_2hsword_2_t3" />					 
+      <equipment slot="Body"
+                 id="Item.stitched_leather_vest" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.closed_desert_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_assassin" />
+      <upgrade_target id="NPCCharacter.talveran_death_rider" />	  
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  
+        <NPCCharacter id="talveran_assassin"
+                default_group="Ranged"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Assassin"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="140" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.composite_steppe_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.early_retirement_2hsword_t3" />					 
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.closed_desert_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.composite_steppe_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.early_retirement_2hsword_t3" />					 
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.closed_desert_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.composite_steppe_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.early_retirement_2hsword_t3" />					 
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.closed_desert_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+    </upgrade_targets>
+	
+  </NPCCharacter>
+   <!--Talveran Cavalry-->
+     <NPCCharacter id="talveran_charger"
+                default_group="Calvary"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Talveran Charger"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="120" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_2_t4" />
+      <equipment slot="Item1"
+                 id="Item.chivalric_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_mace_2_t4" />
+      <equipment slot="Body"
+                 id="Item.eastern_studded_leather" />
+      <equipment slot="Leg"
+                 id="Item.reinforced_suede_boots" />
+      <equipment slot="Head"
+                 id="Item.plumed_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_padded_mitten" />
+      <equipment slot="Cape"
+                 id="Item.brass_lamellar_shoulder_white" />		
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_2_t4" />
+      <equipment slot="Item1"
+                 id="Item.chivalric_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_mace_2_t4" />
+      <equipment slot="Body"
+                 id="Item.eastern_studded_leather" />
+      <equipment slot="Leg"
+                 id="Item.reinforced_suede_boots" />
+      <equipment slot="Head"
+                 id="Item.plumed_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_padded_mitten" />
+      <equipment slot="Cape"
+                 id="Item.brass_lamellar_shoulder_white" />		
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_2_t4" />
+      <equipment slot="Item1"
+                 id="Item.chivalric_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_mace_2_t4" />
+      <equipment slot="Body"
+                 id="Item.eastern_studded_leather" />
+      <equipment slot="Leg"
+                 id="Item.reinforced_suede_boots" />
+      <equipment slot="Head"
+                 id="Item.plumed_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_padded_mitten" />
+      <equipment slot="Cape"
+                 id="Item.brass_lamellar_shoulder_white" />		
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.chain_barding" />
+			   
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.talveran_line_breaker" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+   <NPCCharacter id="talveran_line_breaker"
+                default_group="Cavalry"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=3VosbFR0}Talveran Line Breaker"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="50" />
+      <skill id="Riding"
+             value="160" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="210" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_2_t4" />
+      <equipment slot="Item1"
+                 id="Item.heavy_horsemans_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_mace_2_t4" />
+      <equipment slot="Body"
+                 id="Item.legionary_mail" />
+      <equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Cape"
+                 id="Item.imperial_lamellar_shoulders" />	
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_2_t4" />
+      <equipment slot="Item1"
+                 id="Item.heavy_horsemans_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_mace_2_t4" />
+      <equipment slot="Body"
+                 id="Item.legionary_mail" />
+      <equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Cape"
+                 id="Item.imperial_lamellar_shoulders" />	
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.t2_vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.chain_barding" />
+			   
+    <upgrade_targets>
+    </upgrade_targets>
+	
+  </NPCCharacter>
+<!--Talveran Horse Archer-->
+    <NPCCharacter id="talveran_death_rider"
+                default_group="HorseArcher"
+                level="26"
+                civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
+                name="{=pRbbJHkU}Talveran Death Rider"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+    </face>
+	
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="120" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="130" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item3"
+                 id="Item.empire_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item0"
+                 id="Item.composite_steppe_bow" />
+      <equipment slot="Head"
+                 id="Item.spiked_helmet_with_facemask" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+      <equipment slot="Body"
+                 id="Item.eastern_studded_leather" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item3"
+                 id="Item.empire_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item0"
+                 id="Item.composite_steppe_bow" />
+      <equipment slot="Head"
+                 id="Item.spiked_helmet_with_facemask" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+      <equipment slot="Body"
+                 id="Item.eastern_studded_leather" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item3"
+                 id="Item.empire_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item0"
+                 id="Item.composite_steppe_bow" />
+      <equipment slot="Head"
+                 id="Item.spiked_helmet_with_facemask" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+      <equipment slot="Body"
+                 id="Item.eastern_studded_leather" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.t2_empire_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.stripped_leather_harness" />
+		
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  
+  <!--End Region-->
+  <!--Holy Order of Cathalon-->
+  <!--Infantry-->
+	  <NPCCharacter id="cath_initiate"
+                default_group="Infantry"
+                level="6"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Initiate of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="10" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.aserai_mace_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.monk_robe" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.aserai_mace_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.monk_robe" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.aserai_mace_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.monk_robe" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+	      <upgrade_target id="NPCCharacter.cath_follower" />
+		  <upgrade_target id="NPCCharacter.cath_bishop" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  	  <NPCCharacter id="cath_follower"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Follower of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.lowland_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.padded_cap" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.lowland_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.padded_cap" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.lowland_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+      <equipment slot="Head"
+                 id="Item.padded_cap" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+	      <upgrade_target id="NPCCharacter.cath_brother" />
+		  <upgrade_target id="NPCCharacter.cath_deacon" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  	  <NPCCharacter id="cath_brother"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Brother of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="70" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2"
+                 id="Item.desert_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.belted_leather_cuirass" />
+      <equipment slot="Leg"
+                 id="Item.turndown_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_leather_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2"
+                 id="Item.desert_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.belted_leather_cuirass" />
+      <equipment slot="Leg"
+                 id="Item.turndown_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_leather_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2"
+                 id="Item.desert_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.belted_leather_cuirass" />
+      <equipment slot="Leg"
+                 id="Item.turndown_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_leather_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+	      <upgrade_target id="NPCCharacter.cath_vicar" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  	  <NPCCharacter id="cath_vicar"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Vicar of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="45" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.decorated_steppe_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.vlandia_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.plated_strip_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.decorated_steppe_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.vlandia_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.plated_strip_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.decorated_steppe_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.vlandia_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.plated_strip_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulders" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+	      <upgrade_target id="NPCCharacter.cath_patriarch" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  	  <NPCCharacter id="cath_patriarch"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Patriarch of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="130" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  <!--Archers-->
+  
+    	  <NPCCharacter id="cath_deacon"
+                default_group="Ranged"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Deacon of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item2"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Body"
+                 id="Item.nordic_sloven" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Head"
+                 id="Item.open_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item2"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Body"
+                 id="Item.nordic_sloven" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Head"
+                 id="Item.open_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item2"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Body"
+                 id="Item.nordic_sloven" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Head"
+                 id="Item.open_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+		      <upgrade_target id="NPCCharacter.cath_elder" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+      	  <NPCCharacter id="cath_elder"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Elder of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="100" />
+      <skill id="Crossbow"
+             value="45" />
+      <skill id="Throwing"
+             value="45" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.tribal_bow" />
+      <equipment slot="Item1"
+                 id="Item.steppe_arrows" />
+      <equipment slot="Item2"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Body"
+                 id="Item.long_padded_robe" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.tribal_bow" />
+      <equipment slot="Item1"
+                 id="Item.steppe_arrows" />
+      <equipment slot="Item2"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Body"
+                 id="Item.long_padded_robe" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.tribal_bow" />
+      <equipment slot="Item1"
+                 id="Item.steppe_arrows" />
+      <equipment slot="Item2"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Body"
+                 id="Item.long_padded_robe" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+		      <upgrade_target id="NPCCharacter.cath_exalted" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+        	  <NPCCharacter id="cath_exalted"
+                default_group="Ranged"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Exalted of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="130" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_yew_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.khuzait_lance_3_t5" />
+      <equipment slot="Body"
+                 id="Item.aserai_robe_c_chain" />
+      <equipment slot="Leg"
+                 id="Item.reinforced_suede_boots" />
+      <equipment slot="Head"
+                 id="Item.peaked_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.eastern_plated_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_yew_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.khuzait_lance_3_t5" />
+      <equipment slot="Body"
+                 id="Item.aserai_robe_c_chain" />
+      <equipment slot="Leg"
+                 id="Item.reinforced_suede_boots" />
+      <equipment slot="Head"
+                 id="Item.peaked_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.eastern_plated_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_yew_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.khuzait_lance_3_t5" />
+      <equipment slot="Body"
+                 id="Item.aserai_robe_c_chain" />
+      <equipment slot="Leg"
+                 id="Item.reinforced_suede_boots" />
+      <equipment slot="Head"
+                 id="Item.peaked_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.eastern_plated_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+  <!--Cavalry-->
+  
+          	  <NPCCharacter id="cath_bishop"
+                default_group="Cavalry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Bishop of Cathalon"
+                upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.lowland_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.thick_sleeved_robe" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.lowland_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.thick_sleeved_robe" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.lowland_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.thick_sleeved_robe" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.sumpter_horse" />
+	
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.cath_archbishop" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+            	  <NPCCharacter id="cath_archbishop"
+                default_group="Cavalry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Archbishop of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="70" />
+      <skill id="OneHanded"
+             value="30" />
+      <skill id="TwoHanded"
+             value="70" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="70" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.desert_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.desert_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.desert_throwing_knife" />
+      <equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.sturgia_horse_tournament" />
+    <equipment slot="HorseHarness"
+               id="Item.northern_noble_harness" />
+	
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.cath_crusader" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+              	  <NPCCharacter id="cath_crusader"
+                default_group="Cavalry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Crusader of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="45" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.northern_leather_tabard" />
+      <equipment slot="Leg"
+                 id="Item.mail_cavalier_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.reinforced_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.northern_leather_tabard" />
+      <equipment slot="Leg"
+                 id="Item.mail_cavalier_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.reinforced_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.northern_leather_tabard" />
+      <equipment slot="Leg"
+                 id="Item.mail_cavalier_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.reinforced_leather_vambraces" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.sturgia_horse_tournament" />
+    <equipment slot="HorseHarness"
+               id="Item.northern_light_harness" />
+	
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.cath_holy_crusader" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+        <NPCCharacter id="cath_holy_crusader"
+                default_group="Cavalry"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Holy Crusader of Cathalon"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="130" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="130" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.southern_broad_2hsword_t4" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.southern_broad_2hsword_t4" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.southern_broad_2hsword_t4" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.northern_lamellar_armor" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.t2_empire_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.northern_ring_barding" />
+	
+	<upgrade_targets>
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+    <!--Specialty Units-->
+  
+        <NPCCharacter id="cath_inquisitor"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Inquisitor of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <equipment slot="Item1"
+                 id="Item.bracketed_heater_shield" />
+      <equipment slot="Item2"
+                 id="Item.aserai_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.northern_padded_cloth" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <equipment slot="Item1"
+                 id="Item.bracketed_heater_shield" />
+      <equipment slot="Item2"
+                 id="Item.aserai_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.northern_padded_cloth" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <equipment slot="Item1"
+                 id="Item.bracketed_heater_shield" />
+      <equipment slot="Item2"
+                 id="Item.aserai_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.northern_padded_cloth" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_armwraps" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+	<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cath_templar" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+        <NPCCharacter id="cath_templar"
+                default_group="Cavalry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Templar of Cathalon"
+                upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="30" />
+      <skill id="Riding"
+             value="70" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.khuzait_fortified_armor" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.padded_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.khuzait_fortified_armor" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.padded_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.khuzait_fortified_armor" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+      <equipment slot="Head"
+                 id="Item.desert_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.padded_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.sturgia_horse_tournament" />
+    <equipment slot="HorseHarness"
+               id="Item.northern_noble_harness" />
+	
+	<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cath_grand_templar" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+        <NPCCharacter id="cath_grand_templar"
+                default_group="Cavalry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Grand Templar of Cathalon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="110" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.basic_imperial_leather_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.pointed_skullcap_with_mail" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_padded_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.basic_imperial_leather_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.pointed_skullcap_with_mail" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_padded_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.basic_imperial_leather_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.pointed_skullcap_with_mail" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_padded_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.noble_horse_imperial" />
+    <equipment slot="HorseHarness"
+               id="Item.northern_noble_harness" />
+
+	<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cath_paladin" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+        <NPCCharacter id="cath_paladin"
+                default_group="Cavalry"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Paladin of Cathalon"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="50" />
+      <skill id="Riding"
+             value="160" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="210" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.t2_empire_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.steppe_half_barding" />
+	
+	<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cath_holy_flame_paladin" />
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+        <NPCCharacter id="cath_holy_flame_paladin"
+                default_group="Cavalry"
+                level="31"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Paladin of the Holy Flame"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="220" />
+      <skill id="OneHanded"
+             value="220" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="280" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="25" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_5_t5" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Item2"
+                 id="Item.aserai_sword_5_t4" />
+      <equipment slot="Body"
+                 id="Item.lamellar_with_scale_skirt" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.full_helm_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_5_t5" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Item2"
+                 id="Item.aserai_sword_5_t4" />
+      <equipment slot="Body"
+                 id="Item.lamellar_with_scale_skirt" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.full_helm_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_5_t5" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield" />
+      <equipment slot="Item2"
+                 id="Item.aserai_sword_5_t4" />
+      <equipment slot="Body"
+                 id="Item.lamellar_with_scale_skirt" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.full_helm_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+	  <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+    </equipmentSet>
+	
+    <equipment slot="Horse"
+               id="Item.t2_empire_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.chain_barding" />
+	
+	<upgrade_targets>
+    </upgrade_targets>
+	
+  </NPCCharacter>
+  
+ </NPCCharacters>
