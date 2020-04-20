@@ -20,9 +20,9 @@
            caravan_guard="NPCCharacter.caravan_guard_cath"
            veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_cath"
            duel_preset="NPCCharacter.vlandia_duel_preset"
-           prison_guard="NPCCharacter.prison_guard_vlandia"
-           guard="NPCCharacter.guard_vlandia"
-           steward="NPCCharacter.steward_vlandia"
+           prison_guard="NPCCharacter.prison_guard_cath"
+           guard="NPCCharacter.guard_cath"
+           steward="NPCCharacter.steward_cath"
            blacksmith="NPCCharacter.blacksmith_vlandia"
            weaponsmith="NPCCharacter.weaponsmith_vlandia"
            townswoman="NPCCharacter.townswoman_vlandia"
@@ -567,4 +567,188 @@
     
   </NPCCharacter>
   
+  <NPCCharacter id="prison_guard_cath"
+                default_group="Infantry"
+                level="4"
+                culture="Culture.vlandia"
+                occupation="PrisonGuard"
+                name="{=XgjXfmM1}Prison Guard"
+		
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+
+    <skills>
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+
+    <upgrade_targets></upgrade_targets>
+
+  </NPCCharacter>
+
+  <NPCCharacter id="guard_cath"
+                default_group="Infantry"
+                level="4"
+                culture="Culture.vlandia"
+                occupation="Guard"
+                name="{=1sJcKkVP}Guard"
+		
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+
+    <skills>
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+
+    <upgrade_targets></upgrade_targets>
+
+  </NPCCharacter>
+
+  <NPCCharacter id="steward_cath"
+                default_group="Infantry"
+                level="21"
+                occupation="Judge"
+                culture="Culture.empire"
+                name="{=ZRkceJx3}Judge">
+    <face>
+      <!--face_key value="0000b7ea007c200d34a72b68955c53be15724637a7e9a67ace1c5c53d974dc2a0004669f04746648000000000000000000000000000000000000000000f83042" /-->
+      <BodyProperties version="4"
+                      age="22.65"
+                      weight="0.2105"
+                      build="0.3392"
+                      key="0000B40A007C200D34A72B68955353BE15724637A7E9A67ACE1C5C53D974DC2A0005369305746648000000000000000000000000000000000000000000283042" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.vlandia_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.eastern_silk_clothing" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+	  
+    <upgrade_targets></upgrade_targets>
+	  
+  </NPCCharacter>
+
 </NPCCharacters>
