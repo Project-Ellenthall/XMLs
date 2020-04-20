@@ -13,8 +13,8 @@
            veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_cath"
            prison_guard="NPCCharacter.prison_guard_cath"
            guard="NPCCharacter.guard_cath"
-           steward="NPCCharacter.steward_cath"
--->
+           steward="NPCCharacter.steward_cath" -->
+
 
 <SPCultures>
   <Culture id="vlandia"
