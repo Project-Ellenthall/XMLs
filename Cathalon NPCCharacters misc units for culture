@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NPCCharacters for the towns, militia, and Traders for Cathalon-->
+<!-- Characters Needed
+           elite_basic_troop="NPCCharacter.cath_inquisitor"
+           basic_troop="NPCCharacter.cath_initiate"
+           melee_militia_troop="NPCCharacter.militia_spearman_cath"
+           ranged_militia_troop="NPCCharacter.militia_bowman_cath"
+           melee_elite_militia_troop="NPCCharacter.veteran_militia_spearman_cath"
+           ranged_elite_militia_troop="NPCCharacter.veteran_militia_bowman_cath"
+           villager_party_template="PartyTemplate.villager_vlandia_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_vlandia_template"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_vlandia"
+           caravan_party_template="PartyTemplate.caravan_template_vlandia"
+           militia_party_template="PartyTemplate.militia_vlandia_template"
+           rebels_party_template="PartyTemplate.rebels_vlandia_template"
+           tournament_master="NPCCharacter.tournament_master_cath"
+           villager="NPCCharacter.villager_vlandia"
+           caravan_master="NPCCharacter.caravan_master_cath"
+           armed_trader="NPCCharacter.armed_trader_cath"
+           caravan_guard="NPCCharacter.caravan_guard_cath"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_cath"
+           duel_preset="NPCCharacter.vlandia_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_vlandia"
+           guard="NPCCharacter.guard_vlandia"
+           steward="NPCCharacter.steward_vlandia"
+           blacksmith="NPCCharacter.blacksmith_vlandia"
+           weaponsmith="NPCCharacter.weaponsmith_vlandia"
+           townswoman="NPCCharacter.townswoman_vlandia"
+           townswoman_infant="NPCCharacter.townswoman_infant_vlandia"
+           townswoman_child="NPCCharacter.townswoman_child_vlandia"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_vlandia"
+           townsman="NPCCharacter.townsman_vlandia"
+           townsman_infant="NPCCharacter.townsman_infant_vlandia"
+           townsman_child="NPCCharacter.townsman_child_vlandia"
+           townsman_teenager="NPCCharacter.townsman_teenager_vlandia"
+           ransom_broker="NPCCharacter.ransom_broker_vlandia"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_vlandia"
+           merchant_notary="NPCCharacter.merchant_notary_vlandia"
+           artisan_notary="NPCCharacter.artisan_notary_vlandia"
+           preacher_notary="NPCCharacter.preacher_notary_vlandia"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_vlandia"
+           shop_worker="NPCCharacter.shop_worker_vlandia"
+           tavernkeeper="NPCCharacter.tavernkeeper_vlandia"
+           taverngamehost="NPCCharacter.taverngamehost_vlandia"
+           musician="NPCCharacter.musician_vlandia"
+           tavern_wench="NPCCharacter.tavern_wench_vlandia"
+           armorer="NPCCharacter.armorer_vlandia"
+           horseMerchant="NPCCharacter.horseMerchant_vlandia"
+           merchant="NPCCharacter.merchant_vlandia"
+           beggar="NPCCharacter.beggar_vlandia"
+           female_beggar="NPCCharacter.female_beggar_vlandia"
+           female_dancer="NPCCharacter.female_dancer_vlandia"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_vlandia"
+           gear_dummy="NPCCharacter.gear_dummy_vlandia">
+           -->
+
+<NPCCharacters>
+<!--Infantry Militia-->
+  <NPCCharacter id="militia_spearman_cath"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Militia Spearman of Cathalon"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.western_spear_2_t2" />
+      <equipment slot="Item1"
+                 id="Item.bracketed_heater_shield" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    
+     <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_militia_spearman_cath" />
+    </upgrade_targets>
+    
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_militia_spearman_cath"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Militia Spearman of Cathalon"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.fine_pike_t4" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    
+     <upgrade_targets>
+    </upgrade_targets>
+    
+  </NPCCharacter>
+  
+  <NPCCharacter id="militia_bowman_cath"
+                default_group="Ranged"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Militia Bowman of Cathalon"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.simple_back_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    
+     <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_militia_bowman_cath" />
+    </upgrade_targets>
+    
+  </NPCCharacter>
+  
+    <NPCCharacter id="veteran_militia_bowman_cath"
+                default_group="Ranged"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="{=Si5ZCb1O}Veteran Militia Bowman of Cathalon"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="25" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="25" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.simple_back_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    
+     <upgrade_targets>
+    </upgrade_targets>
+    
+  </NPCCharacter>
+  
+  <NPCCharacter id="tournament_master_cath"
+                default_group="Infantry"
+                is_hero="false"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_empire"
+                occupation="ArenaMaster"
+                culture="Culture.vlandia"
+                name="{=IHKXNP9H}Tournament Master"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="000617f9806c300df90f70b405108fd7a0e007645abf778f571f5fe49105987f0005358f02eae2e0000000000000000000000000000000000000000000000040" /-->
+      <BodyProperties version="4"
+                      age="50.4"
+                      weight="0.3703"
+                      build="0.5568"
+                      key="0005140A007C300DF90F70B405168FD7A0E007645ABF778F571F5FE49105987F0008658602EAE2E0000000000000000000000000000000000000000000A00040" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.imperial_robes" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_cath"
+                default_group="Infantry"
+                level="26"
+                name="{=QbSjMefR}Cathalon Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.vlandia"
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="130" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.highland_scouts_shield" />
+      <equipment slot="Item2"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Item3"
+                 id="Item.empire_throwingknife_t5" />
+      <equipment slot="Body"
+                 id="Item.desert_robe_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.northern_plated_boots" />
+      <equipment slot="Head"
+                 id="Item.imperial_goggled_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.northern_plated_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.mail_shoulder" />
+    </equipmentSet>
+    
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Head"
+                 id="Item.pointed_skullcap_over_laced_coif" />
+      <equipment slot="Body"
+                 id="Item.banded_leather_over_mail" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+    </equipmentSet>
+    
+    <upgrade_targets></upgrade_targets>
+    
+  </NPCCharacter>
+  
+    <NPCCharacter id="armed_trader_cath"
+                default_group="Infantry"
+                level="16"
+                name="{=QbSjMefR}Cathalon Armed Trader"
+                occupation="CaravanGuard"
+                culture="Culture.vlandia"
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="25" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="25" />
+    </skills>
+	
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item2"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item3"
+                 id="Item.simple_back_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.plated_strip_boots" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+	  <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    
+  </NPCCharacter>
+    <NPCCharacter id="caravan_guard_cath"
+                default_group="Cavalry"
+                level="21"
+                name="{=rQ0t0Wws}Cathalon Caravan Guard"
+                upgrade_requires="ItemCategory.horse"
+                occupation="CaravanGuard"
+                culture="Culture.vlandia"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="110" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.western_spear_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.battered_kite_shield" />
+      <equipment slot="Head"
+                 id="Item.cervelliere_over_laced_coif" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+    
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.western_spear_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.battered_kite_shield" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_padded_coif" />
+      <equipment slot="Body"
+                 id="Item.padded_short_coat" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+    </equipmentSet>
+
+    <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.light_harness" />
+               
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_cath" />
+    </upgrade_targets>
+    
+  </NPCCharacter>
+  
+<NPCCharacter id="veteran_caravan_guard_cath"
+                default_group="Cavalry"
+                level="26"
+                name="{=YE4RGuzU}Cathalon Veteran Caravan Guard"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="CaravanGuard"
+                culture="Culture.vlandia"
+                skill_template="NPCCharacter.cavalry_lightcavalry_heavycavalry_level26_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.vlandia_sword_4_t4" />
+      <equipment slot="Item2"
+                 id="Item.western_riders_kite_shield" />
+      <equipment slot="Head"
+                 id="Item.cervelliere_over_laced_coif" />
+      <equipment slot="Body"
+                 id="Item.banded_leather_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+  
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.vlandia_axe_2_t4" />
+      <equipment slot="Item2"
+                 id="Item.western_riders_kite_shield" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_padded_coif" />
+      <equipment slot="Body"
+                 id="Item.banded_leather_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+  
+    <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.stripped_leather_harness" />
+               
+    <upgrade_targets></upgrade_targets>
+    
+  </NPCCharacter>
+  
+</NPCCharacters>
