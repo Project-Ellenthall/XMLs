@@ -1,58 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- NPCCharacters for the towns, militia, and Traders for Cathalon-->
-<!-- Characters Needed
-           elite_basic_troop="NPCCharacter.cath_inquisitor"
-           basic_troop="NPCCharacter.cath_initiate"
-           melee_militia_troop="NPCCharacter.militia_spearman_cath"
+<!-- Changes Made 4/20
+	Created and Added the following Units - 
+	   melee_militia_troop="NPCCharacter.militia_spearman_cath"        
            ranged_militia_troop="NPCCharacter.militia_bowman_cath"
            melee_elite_militia_troop="NPCCharacter.veteran_militia_spearman_cath"
            ranged_elite_militia_troop="NPCCharacter.veteran_militia_bowman_cath"
-           villager_party_template="PartyTemplate.villager_vlandia_template"
-           default_party_template="PartyTemplate.kingdom_hero_party_vlandia_template"
-           elite_caravan_party_template="PartyTemplate.elite_caravan_template_vlandia"
-           caravan_party_template="PartyTemplate.caravan_template_vlandia"
-           militia_party_template="PartyTemplate.militia_vlandia_template"
-           rebels_party_template="PartyTemplate.rebels_vlandia_template"
            tournament_master="NPCCharacter.tournament_master_cath"
-           villager="NPCCharacter.villager_vlandia"
            caravan_master="NPCCharacter.caravan_master_cath"
            armed_trader="NPCCharacter.armed_trader_cath"
            caravan_guard="NPCCharacter.caravan_guard_cath"
            veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_cath"
-           duel_preset="NPCCharacter.vlandia_duel_preset"
            prison_guard="NPCCharacter.prison_guard_cath"
            guard="NPCCharacter.guard_cath"
            steward="NPCCharacter.steward_cath"
-           blacksmith="NPCCharacter.blacksmith_vlandia"
-           weaponsmith="NPCCharacter.weaponsmith_vlandia"
-           townswoman="NPCCharacter.townswoman_vlandia"
-           townswoman_infant="NPCCharacter.townswoman_infant_vlandia"
-           townswoman_child="NPCCharacter.townswoman_child_vlandia"
-           townswoman_teenager="NPCCharacter.townswoman_teenager_vlandia"
-           townsman="NPCCharacter.townsman_vlandia"
-           townsman_infant="NPCCharacter.townsman_infant_vlandia"
-           townsman_child="NPCCharacter.townsman_child_vlandia"
-           townsman_teenager="NPCCharacter.townsman_teenager_vlandia"
-           ransom_broker="NPCCharacter.ransom_broker_vlandia"
-           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_vlandia"
-           merchant_notary="NPCCharacter.merchant_notary_vlandia"
-           artisan_notary="NPCCharacter.artisan_notary_vlandia"
-           preacher_notary="NPCCharacter.preacher_notary_vlandia"
-           rural_notable_notary="NPCCharacter.rural_notable_notary_vlandia"
-           shop_worker="NPCCharacter.shop_worker_vlandia"
-           tavernkeeper="NPCCharacter.tavernkeeper_vlandia"
-           taverngamehost="NPCCharacter.taverngamehost_vlandia"
-           musician="NPCCharacter.musician_vlandia"
-           tavern_wench="NPCCharacter.tavern_wench_vlandia"
-           armorer="NPCCharacter.armorer_vlandia"
-           horseMerchant="NPCCharacter.horseMerchant_vlandia"
-           merchant="NPCCharacter.merchant_vlandia"
-           beggar="NPCCharacter.beggar_vlandia"
-           female_beggar="NPCCharacter.female_beggar_vlandia"
-           female_dancer="NPCCharacter.female_dancer_vlandia"
-           gear_practice_dummy="NPCCharacter.gear_practice_dummy_vlandia"
-           gear_dummy="NPCCharacter.gear_dummy_vlandia">
-           -->
+-->
 
 <NPCCharacters>
 <!--Infantry Militia-->
