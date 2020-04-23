@@ -1,1 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Wyndrake Infantry-->
+<NPCCharacters>
+  <NPCCharacter id="wynd_rebel"
+                default_group="Infantry"
+                level="6"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="{=GUQ3zfg2}Wyndrakkian Rebel"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.battania">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_pickaxe_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.rough_tied_boots" />
+    </equipmentSet>
+    
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battanian_clanwarrior" />
+      <upgrade_target id="NPCCharacter.battanian_woodrunner" />
+    </upgrade_targets>
+    
+  </NPCCharacter>
+<!--Wynd Specialty Unit-->
+  <NPCCharacter id="wynd_wyrmling"
+                default_group="Ranged"
+                level="11"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t2"
+                name="{=cZms8Ivb}Wyndrakkian Wyrmling"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.battania">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.villager_blade" />-->
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item2"
+                 id="Item.barbed_arrows" />
+      <equipment slot="Item3"
+                 id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+    </equipmentSet>
 
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battanian_highborn_warrior" />
+    </upgrade_targets>
+    
+  </NPCCharacter>
